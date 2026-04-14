@@ -8,15 +8,16 @@ Evaluate MAST's LLM-judge pipeline and 14-mode failure taxonomy for multi-agent 
 
 ## Findings so far
 
-- **Data quality issues**: human-labeled subset is small (19 traces) with limited MAS/benchmark coverage; inter-annotator agreement varies significantly across failure modes.
-- **Pipeline quality issues**: the original LLM-judge pipeline shows low agreement with human labels on several failure modes (see `old_pipeline/`).
-- **Taxonomy observations**: some modes are rarely observed or hard to distinguish; others (e.g. step repetition, premature termination) are strong candidates for real-time detection.
+- **Data quality issues**: human-labeled subset is small (19 traces, only 9 usable with final taxonomy) with limited MAS/benchmark coverage.
+- **Pipeline not reproducible**: paper reports κ=0.77 / accuracy=94%. Our runs on the same Round 3 subset get κ=0.05–0.22 (see `old_pipeline/results.md`).
+- **Taxonomy observations**: some modes are rarely observed or hard to distinguish; others (e.g. step repetition, premature termination) are candidates for real-time detection.
 
 ## Structure
 
 ```
 old_pipeline/          # Original MAST pipeline reproduction & critique
-  tests/               # LLM-vs-human comparison, evaluation results
+  scripts/             # Pipeline runner, LLM-vs-human comparison
+  runs/                # Evaluation result JSONs (under200k, round3)
   taxonomy_definitions_examples/
 data_exploration/      # Dataset analysis scripts & notes
 new_data/              # Extracted human-labeled traces, annotations

@@ -139,6 +139,10 @@ def parse_response(response: str) -> dict[str, int]:
 
 def main():
     parser = argparse.ArgumentParser()
+    parser.add_argument("--input", type=str, default=None,
+                        help="Path to input traces JSON (default: iaa_traces_with_labels.json)")
+    parser.add_argument("--output", type=str, default=None,
+                        help="Path to save results JSON (default: tests/pipeline_evaluation_results.json)")
     parser.add_argument("--max-traces", type=int, default=None)
     parser.add_argument("--skip-long", action="store_true",
                         help="Skip traces > 200K chars")
@@ -163,8 +167,10 @@ def main():
     definitions = open("taxonomy_definitions_examples/definitions.txt").read()
     examples = open("taxonomy_definitions_examples/examples.txt").read()
 
-    with open("iaa_traces_with_labels.json") as f:
+    input_path = args.input or "iaa_traces_with_labels.json"
+    with open(input_path) as f:
         traces = json.load(f)
+    print(f"Input:    {input_path}")
 
     if args.skip_long:
         before = len(traces)
@@ -240,8 +246,8 @@ def main():
             "agree": agree,
         })
 
-    # Save raw results
-    save_path = "pipeline_evaluation_results.json"
+    save_path = args.output or "tests/pipeline_evaluation_results.json"
+    os.makedirs(os.path.dirname(save_path) or ".", exist_ok=True)
     with open(save_path, "w") as f:
         json.dump(results, f, indent=2, default=str)
     print(f"\nRaw results saved to {save_path}")
