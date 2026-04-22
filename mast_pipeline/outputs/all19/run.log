@@ -1,0 +1,213 @@
+API base: https://litellm.prod.outshift.ai
+Model:    azure/o3-pro
+Key:      sk-2Too2...
+Input:    ../new_data/round[1,3]/final_iaa_19_traces.json
+
+Will evaluate 19 traces
+
+[1/19] idx=15 round=Generlazability mas=ChatDev bench=MMLU chars=308,271
+  Response received (54.1s, 842 chars)
+  Human: 3 failures | LLM: 5 failures | Agree: 10/14 (71%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    FALSE POS: 1.5 Unaware of Termination Conditions (human=0, llm=1)
+    FALSE POS: 2.3 Task Derailment (human=0, llm=1)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+[2/19] idx=16 round=Generlazability mas=MetaGPT bench=MMLU chars=6,569
+  Response received (73.9s, 371 chars)
+  Human: 3 failures | LLM: 5 failures | Agree: 12/14 (86%)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    FALSE POS: 3.1 Premature Termination (human=0, llm=1)
+[3/19] idx=17 round=Generlazability mas=GAIA bench=Magentic chars=55,842
+  Response received (63.5s, 310 chars)
+  Human: 3 failures | LLM: 1 failures | Agree: 12/14 (86%)
+    MISSED: 1.1 Disobey Task Specification (human=1, llm=0)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+[4/19] idx=18 round=Generlazability mas=GAIA bench=OpenManus chars=46,209
+  Response received (97.3s, 460 chars)
+  Human: 0 failures | LLM: 4 failures | Agree: 10/14 (71%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    FALSE POS: 1.5 Unaware of Termination Conditions (human=0, llm=1)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    FALSE POS: 3.2 No or Incorrect Verification (human=0, llm=1)
+[5/19] idx=0 round=Round 1 mas=AppWorld bench=Test-C chars=26,714
+  Response received (47.4s, 764 chars)
+  Human: 2 failures | LLM: 2 failures | Agree: 10/14 (71%)
+    MISSED: 1.5 Unaware of Termination Conditions (human=1, llm=0)
+    FALSE POS: 2.2 Fail to Ask for Clarification (human=0, llm=1)
+    MISSED: 2.5 Ignored Other Agent's Input (human=1, llm=0)
+    FALSE POS: 3.1 Premature Termination (human=0, llm=1)
+[6/19] idx=1 round=Round 1 mas=HyperAgent bench=SWE-Bench-Lite chars=265,138
+  Response received (52.0s, 1,072 chars)
+  Human: 2 failures | LLM: 8 failures | Agree: 6/14 (43%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    FALSE POS: 1.4 Loss of Conversation History (human=0, llm=1)
+    FALSE POS: 2.1 Conversation Reset (human=0, llm=1)
+    FALSE POS: 2.3 Task Derailment (human=0, llm=1)
+    FALSE POS: 2.4 Information Withholding (human=0, llm=1)
+    MISSED: 2.5 Ignored Other Agent's Input (human=1, llm=0)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    FALSE POS: 3.2 No or Incorrect Verification (human=0, llm=1)
+[7/19] idx=2 round=Round 1 mas=AG2 bench=GSM-Plus chars=8,221
+  Response received (104.3s, 431 chars)
+  Human: 2 failures | LLM: 3 failures | Agree: 13/14 (93%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+[8/19] idx=3 round=Round 1 mas=ChatDev bench=ProgramDev chars=305,616
+  Response received (71.7s, 819 chars)
+  Human: 8 failures | LLM: 3 failures | Agree: 7/14 (50%)
+    FALSE POS: 1.1 Disobey Task Specification (human=0, llm=1)
+    MISSED: 1.2 Disobey Role Specification (human=1, llm=0)
+    MISSED: 1.5 Unaware of Termination Conditions (human=1, llm=0)
+    MISSED: 2.1 Conversation Reset (human=1, llm=0)
+    MISSED: 2.3 Task Derailment (human=1, llm=0)
+    MISSED: 2.6 Action-Reasoning Mismatch (human=1, llm=0)
+    MISSED: 3.3 Weak Verification (human=1, llm=0)
+[9/19] idx=4 round=Round 1 mas=MetaGPT bench=ProgramDev chars=2,659
+  Response received (51.0s, 443 chars)
+  Human: 8 failures | LLM: 3 failures | Agree: 7/14 (50%)
+    MISSED: 1.2 Disobey Role Specification (human=1, llm=0)
+    MISSED: 1.5 Unaware of Termination Conditions (human=1, llm=0)
+    MISSED: 2.1 Conversation Reset (human=1, llm=0)
+    MISSED: 2.3 Task Derailment (human=1, llm=0)
+    MISSED: 2.6 Action-Reasoning Mismatch (human=1, llm=0)
+    FALSE POS: 3.1 Premature Termination (human=0, llm=1)
+    MISSED: 3.3 Weak Verification (human=1, llm=0)
+[10/19] idx=5 round=Round 2 mas=AppWorld bench=Test-C chars=33,933
+  Response received (39.3s, 361 chars)
+  Human: 1 failures | LLM: 1 failures | Agree: 12/14 (86%)
+    FALSE POS: 2.5 Ignored Other Agent's Input (human=0, llm=1)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+[11/19] idx=6 round=Round 2 mas=HyperAgent bench=SWE-Bench-Lite chars=46,376
+  Response received (48.4s, 484 chars)
+  Human: 1 failures | LLM: 6 failures | Agree: 9/14 (64%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    FALSE POS: 2.5 Ignored Other Agent's Input (human=0, llm=1)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    FALSE POS: 3.1 Premature Termination (human=0, llm=1)
+    FALSE POS: 3.3 Weak Verification (human=0, llm=1)
+[12/19] idx=7 round=Round 2 mas=AG2 bench=GSM-Plus chars=6,660
+  Response received (49.0s, 703 chars)
+  Human: 1 failures | LLM: 1 failures | Agree: 12/14 (86%)
+    FALSE POS: 1.1 Disobey Task Specification (human=0, llm=1)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+[13/19] idx=8 round=Round 2 mas=ChatDev bench=ProgramDev chars=305,616
+  Response received (52.4s, 406 chars)
+  Human: 2 failures | LLM: 2 failures | Agree: 10/14 (71%)
+    FALSE POS: 1.1 Disobey Task Specification (human=0, llm=1)
+    MISSED: 1.4 Loss of Conversation History (human=1, llm=0)
+    MISSED: 2.6 Action-Reasoning Mismatch (human=1, llm=0)
+    FALSE POS: 3.2 No or Incorrect Verification (human=0, llm=1)
+[14/19] idx=9 round=Round 2 mas=MetaGPT bench=ProgramDev chars=4,158
+  Response received (88.7s, 329 chars)
+  Human: 2 failures | LLM: 2 failures | Agree: 10/14 (71%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    MISSED: 1.4 Loss of Conversation History (human=1, llm=0)
+    MISSED: 2.6 Action-Reasoning Mismatch (human=1, llm=0)
+    FALSE POS: 3.3 Weak Verification (human=0, llm=1)
+[15/19] idx=10 round=Round 3 mas=HyperAgent bench=SWE-Bench-Lite chars=644,556
+  Response received (71.3s, 935 chars)
+  Human: 4 failures | LLM: 10 failures | Agree: 4/14 (29%)
+    FALSE POS: 1.2 Disobey Role Specification (human=0, llm=1)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    FALSE POS: 1.4 Loss of Conversation History (human=0, llm=1)
+    FALSE POS: 1.5 Unaware of Termination Conditions (human=0, llm=1)
+    FALSE POS: 2.1 Conversation Reset (human=0, llm=1)
+    MISSED: 2.2 Fail to Ask for Clarification (human=1, llm=0)
+    FALSE POS: 2.4 Information Withholding (human=0, llm=1)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    MISSED: 3.2 No or Inco  Response received (47.4s, 808 chars)
+  Human: 4 failures | LLM: 4 failures | Agree: 10/14 (71%)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    MISSED: 2.3 Task Derailment (human=1, llm=0)
+    FALSE POS: 3.1 Premature Termination (human=0, llm=1)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+[17/19] idx=12 round=Round 3 mas=AG2 bench=GSM-Plus chars=11,568
+  Response received (54.9s, 365 chars)
+  Human: 4 failures | LLM: 4 failures | Agree: 10/14 (71%)
+    MISSED: 2.3 Task Derailment (human=1, llm=0)
+    FALSE POS: 2.6 Action-Reasoning Mismatch (human=0, llm=1)
+    MISSED: 3.2 No or Incorrect Verification (human=1, llm=0)
+    FALSE POS: 3.3 Weak Verification (human=0, llm=1)
+[18/19] idx=13 round=Round 3 mas=ChatDev bench=ProgramDev chars=314,337
+  Response received (49.8s, 420 chars)
+  Human: 2 failures | LLM: 0 failures | Agree: 12/14 (86%)
+    MISSED: 2.2 Fail to Ask for Clarification (human=1, llm=0)
+    MISSED: 3.3 Weak Verification (human=1, llm=0)
+[19/19] idx=14 round=Round 3 mas=MetaGPT bench=ProgramDev chars=2,503
+  Response received (62.5s, 378 chars)
+  Human: 2 failures | LLM: 3 failures | Agree: 11/14 (79%)
+    FALSE POS: 1.1 Disobey Task Specification (human=0, llm=1)
+    FALSE POS: 1.3 Step Repetition (human=0, llm=1)
+    MISSED: 2.2 Fail to Ask for Clarification (human=1, llm=0)
+
+Raw results saved to outputs/all19/pipeline_evaluation_results_all19.json
+
+======================================================================
+AGGREGATE RESULTS (19 traces, 266 label pairs)
+======================================================================
+Human positives:  54 (20.3%)
+LLM positives:    63 (23.7%)
+Raw agreement:    189/266 (71.1%)
+Cohen's Kappa:    0.158
+
+Confusion matrix (rows=human, cols=LLM):
+                  LLM=no  LLM=yes
+  Human=no           169      43
+  Human=yes           34      20
+
+Classification report:
+              precision    recall  f1-score   support
+
+  no failure       0.83      0.80      0.81       212
+     failure       0.32      0.37      0.34        54
+
+    accuracy                           0.71       266
+   macro avg       0.57      0.58      0.58       266
+weighted avg       0.73      0.71      0.72       266
+
+======================================================================
+PER-MODE BREAKDOWN
+======================================================================
+Mode   Name                                  H   L Agr   N   Acc
+1.1    Disobey Task Specification            6   7  14  19  73.7%
+1.2    Disobey Role Specification            2   1  16  19  84.2%
+1.3    Step Repetition                       2  10   9  19  47.4%
+1.4    Loss of Conversation History          2   2  15  19  78.9%
+1.5    Unaware of Termination Conditions     5   7  11  19  57.9%
+2.1    Conversation Reset                    2   3  14  19  73.7%
+2.2    Fail to Ask for Clarification         5   2  16  19  84.2%
+2.3    Task Derailment                       5   3  13  19  68.4%
+2.4    Information Withholding               0   1  18  19  94.7%
+2.5    Ignored Other Agent's Input           3   1  17  19  89.5%
+2.6    Action-Reasoning Mismatch             4   7   8  19  42.1%
+3.1    Premature Termination                 0   4  15  19  78.9%
+3.2    No or Incorrect Verification         11   5  13  19  68.4%
+3.3    Weak Verification                     7  10  10  19  52.6%
+
+======================================================================
+PER-TRACE SUMMARY
+======================================================================
+  idx=15  round=Generlazability  mas=ChatDev         agree=10/14 (71%)
+  idx=16  round=Generlazability  mas=MetaGPT         agree=10/14 (71%)
+  idx=17  round=Generlazability  mas=GAIA            agree=12/14 (86%)
+  idx=18  round=Generlazability  mas=GAIA            agree= 9/14 (64%)
+  idx= 0  round=Round 1          mas=AppWorld        agree=10/14 (71%)
+  idx= 1  round=Round 1          mas=HyperAgent      agree= 6/14 (43%)
+  idx= 2  round=Round 1          mas=AG2             agree=13/14 (93%)
+  idx= 3  round=Round 1          mas=ChatDev         agree= 6/14 (43%)
+  idx= 4  round=Round 1          mas=MetaGPT         agree= 9/14 (64%)
+  idx= 5  round=Round 2          mas=AppWorld        agree=12/14 (86%)
+  idx= 6  round=Round 2          mas=HyperAgent      agree=11/14 (79%)
+  idx= 7  round=Round 2          mas=AG2             agree=11/14 (79%)
+  idx= 8  round=Round 2          mas=ChatDev         agree=10/14 (71%)
+  idx= 9  round=Round 2          mas=MetaGPT         agree=11/14 (79%)
+  idx=10  round=Round 3          mas=HyperAgent      agree= 6/14 (43%)
+  idx=11  round=Round 3          mas=AppWorld        agree=10/14 (71%)
+  idx=12  round=Round 3          mas=AG2             agree=10/14 (71%)
+  idx=13  round=Round 3          mas=ChatDev         agree=12/14 (86%)
+  idx=14  round=Round 3          mas=MetaGPT         agree=11/14 (79%)
+    mas=MetaGPT         agree=10/14 (71%)
+  idx=10  round=Round 3          mas=HyperAgent      agree= 4/14 (29%)
+  idx=11  round=Round 3          mas=AppWorld        agree= 9/14 (64%)
+  idx=12  round=Round 3          mas=AG2             agree= 9/14 (64%)
+  idx=13  round=Round 3          mas=ChatDev         agree=12/14 (86%)
+  idx=14  round=Round 3          mas=MetaGPT         agree= 9/14 (64%)

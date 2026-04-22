@@ -1,0 +1,3509 @@
+[
+  {
+    "index": 15,
+    "round": "Generlazability",
+    "mas_name": "ChatDev",
+    "benchmark_name": "MMLU",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.4"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.2"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 3,
+      "n_source_absent_modes": 0,
+      "round_quality": 1.0
+    }
+  },
+  {
+    "index": 16,
+    "round": "Generlazability",
+    "mas_name": "MetaGPT",
+    "benchmark_name": "MMLU",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.4"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.2"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 3,
+      "n_source_absent_modes": 0,
+      "round_quality": 1.0
+    }
+  },
+  {
+    "index": 17,
+    "round": "Generlazability",
+    "mas_name": "GAIA",
+    "benchmark_name": "Magentic",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.4"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.2"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 3,
+      "n_source_absent_modes": 0,
+      "round_quality": 1.0
+    }
+  },
+  {
+    "index": 18,
+    "round": "Generlazability",
+    "mas_name": "GAIA",
+    "benchmark_name": "OpenManus",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.4"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.2"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 1.0,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 1.0,
+        "combined": 0.667,
+        "source_codes": [
+          "3.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 0,
+      "n_source_absent_modes": 0,
+      "round_quality": 1.0
+    }
+  },
+  {
+    "index": 0,
+    "round": "Round 1",
+    "mas_name": "AppWorld",
+    "benchmark_name": "Test-C",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 1,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 1,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.3,
+        "combined": 0.27,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.1",
+          "2.2"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "1.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "1.3",
+          "1.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "2.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.3,
+        "combined": 0.21,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "4.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.2"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.3
+    }
+  },
+  {
+    "index": 1,
+    "round": "Round 1",
+    "mas_name": "HyperAgent",
+    "benchmark_name": "SWE-Bench-Lite",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 1,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 1,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.3,
+        "combined": 0.27,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.1",
+          "2.2"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "1.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "1.3",
+          "1.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "2.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.3,
+        "combined": 0.21,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "4.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.2"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.3
+    }
+  },
+  {
+    "index": 2,
+    "round": "Round 1",
+    "mas_name": "AG2",
+    "benchmark_name": "GSM-Plus",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 1,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 1,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.3,
+        "combined": 0.27,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.1",
+          "2.2"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "1.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "1.3",
+          "1.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "2.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.3,
+        "combined": 0.21,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "4.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.2"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.3
+    }
+  },
+  {
+    "index": 3,
+    "round": "Round 1",
+    "mas_name": "ChatDev",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 1,
+      "1.3": 1,
+      "1.4": 0,
+      "1.5": 1,
+      "2.1": 1,
+      "2.2": 0,
+      "2.3": 1,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 1,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.3,
+        "combined": 0.27,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "1.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.1",
+          "2.2"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "1.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "1.3",
+          "1.4"
+        ]
+      },
+      "2.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "2.6": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.3,
+        "combined": 0.21,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "4.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.2"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 8,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.3
+    }
+  },
+  {
+    "index": 4,
+    "round": "Round 1",
+    "mas_name": "MetaGPT",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 1,
+      "1.3": 1,
+      "1.4": 0,
+      "1.5": 1,
+      "2.1": 1,
+      "2.2": 0,
+      "2.3": 1,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 1,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.3,
+        "combined": 0.27,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "1.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.1",
+          "2.2"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "1.5": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "1.5"
+        ]
+      },
+      "2.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.4"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.3,
+        "combined": 0.09,
+        "source_codes": [
+          "1.3",
+          "1.4"
+        ]
+      },
+      "2.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "2.5"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "2.6": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.3,
+        "combined": 0.21,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.3,
+        "combined": 0.3,
+        "source_codes": [
+          "4.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.2"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.3,
+        "combined": 0.18,
+        "source_codes": [
+          "4.3"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 8,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.3
+    }
+  },
+  {
+    "index": 5,
+    "round": "Round 2",
+    "mas_name": "AppWorld",
+    "benchmark_name": "Test-C",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.5,
+        "combined": 0.45,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.5,
+        "combined": 0.35,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 1,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.5
+    }
+  },
+  {
+    "index": 6,
+    "round": "Round 2",
+    "mas_name": "HyperAgent",
+    "benchmark_name": "SWE-Bench-Lite",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.5,
+        "combined": 0.45,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.5,
+        "combined": 0.35,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 1,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.5
+    }
+  },
+  {
+    "index": 7,
+    "round": "Round 2",
+    "mas_name": "AG2",
+    "benchmark_name": "GSM-Plus",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.5,
+        "combined": 0.45,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.5,
+        "combined": 0.35,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 1,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.5
+    }
+  },
+  {
+    "index": 8,
+    "round": "Round 2",
+    "mas_name": "ChatDev",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 1,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 1,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.5,
+        "combined": 0.45,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.5,
+        "combined": 0.35,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.5
+    }
+  },
+  {
+    "index": 9,
+    "round": "Round 2",
+    "mas_name": "MetaGPT",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 1,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 0,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 1,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.5,
+        "combined": 0.45,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.5,
+        "combined": 0.15,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.5,
+        "combined": 0.35,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.5,
+        "combined": 0.5,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.5,
+        "combined": 0.3,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.5
+    }
+  },
+  {
+    "index": 10,
+    "round": "Round 3",
+    "mas_name": "HyperAgent",
+    "benchmark_name": "SWE-Bench-Lite",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 1,
+      "2.3": 1,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.16,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.533,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.8,
+        "combined": 0.56,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 4,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.8
+    }
+  },
+  {
+    "index": 11,
+    "round": "Round 3",
+    "mas_name": "AppWorld",
+    "benchmark_name": "Test-C",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 1,
+      "2.3": 1,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.16,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.533,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.8,
+        "combined": 0.56,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 4,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.8
+    }
+  },
+  {
+    "index": 12,
+    "round": "Round 3",
+    "mas_name": "AG2",
+    "benchmark_name": "GSM-Plus",
+    "human_labels": {
+      "1.1": 1,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 1,
+      "2.3": 1,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 1,
+      "3.3": 0
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.16,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.533,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.8,
+        "combined": 0.56,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 4,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.8
+    }
+  },
+  {
+    "index": 13,
+    "round": "Round 3",
+    "mas_name": "ChatDev",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 1,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.8,
+        "combined": 0.56,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.8
+    }
+  },
+  {
+    "index": 14,
+    "round": "Round 3",
+    "mas_name": "MetaGPT",
+    "benchmark_name": "ProgramDev",
+    "human_labels": {
+      "1.1": 0,
+      "1.2": 0,
+      "1.3": 0,
+      "1.4": 0,
+      "1.5": 0,
+      "2.1": 0,
+      "2.2": 1,
+      "2.3": 0,
+      "2.4": 0,
+      "2.5": 0,
+      "2.6": 0,
+      "3.1": 0,
+      "3.2": 0,
+      "3.3": 1
+    },
+    "label_confidence": {
+      "1.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.72,
+        "source_codes": [
+          "1.1"
+        ]
+      },
+      "1.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.7"
+        ]
+      },
+      "1.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.4",
+          "1.5"
+        ]
+      },
+      "1.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.3,
+        "round_quality": 0.8,
+        "combined": 0.24,
+        "source_codes": [
+          "1.6"
+        ]
+      },
+      "1.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "1.3"
+        ]
+      },
+      "2.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.1"
+        ]
+      },
+      "2.2": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 0.667,
+        "mapping_directness": 0.9,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "2.2",
+          "2.4"
+        ]
+      },
+      "2.3": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.3"
+        ]
+      },
+      "2.4": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.6"
+        ]
+      },
+      "2.5": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "2.7"
+        ]
+      },
+      "2.6": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.7,
+        "round_quality": 0.8,
+        "combined": 0.56,
+        "source_codes": [
+          "1.2"
+        ]
+      },
+      "3.1": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 1.0,
+        "round_quality": 0.8,
+        "combined": 0.8,
+        "source_codes": [
+          "3.1"
+        ]
+      },
+      "3.2": {
+        "label": 0,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.3"
+        ]
+      },
+      "3.3": {
+        "label": 1,
+        "source_present": true,
+        "annotator_consensus": 1.0,
+        "mapping_directness": 0.6,
+        "round_quality": 0.8,
+        "combined": 0.48,
+        "source_codes": [
+          "3.2"
+        ]
+      }
+    },
+    "trace_summary": {
+      "n_positive_labels": 2,
+      "n_source_absent_modes": 0,
+      "round_quality": 0.8
+    }
+  }
+]
